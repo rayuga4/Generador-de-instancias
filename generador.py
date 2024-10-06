@@ -1,17 +1,14 @@
 import random
 
-nombre_archivo = "instancia_grupo11"
-num_asignaturas = 50  # Ajusta el número de asignaturas según sea necesario
-num_salas = 10  # Ajusta el número de salas disponibles
-min_capacidad = 20  # Capacidad mínima de sillas por sala
-max_capacidad = 45  # Capacidad máxima de sillas por sala
-
+nombre_archivo = "instancia1"
+num_asignaturas = 40
+num_salas = 3
 
 num_bloque_1 = int(num_asignaturas * 0.65)
 num_bloque_2 = num_asignaturas - num_bloque_1
-    
+
 bloques = [1] * num_bloque_1 + [2] * num_bloque_2
-random.shuffle(bloques)  # Mezclamos para aleatorizar
+random.shuffle(bloques)
 
 capacidad = []
 prioridad = []
@@ -19,7 +16,7 @@ disponibilidad = []
 interes = []
 
 for x in range(num_salas):
-    capacidad.append(random.randint(min_capacidad,max_capacidad))
+    capacidad.append(random.randint(45,80))
 
 for x in range(num_asignaturas):    
     if x%5==0:
@@ -43,4 +40,3 @@ with open(f"{nombre_archivo}.dzn", "w") as f:
     for dispo in disponibilidad:
         f.write(f"  {', '.join(map(str, dispo))},\n")
     f.write("]);\n")
-
