@@ -1,6 +1,6 @@
 import random
 
-nombre_archivo = "instancia1"
+nombre_archivo = "instancia2"
 num_asignaturas = 40
 num_salas = 3
 
@@ -33,9 +33,9 @@ with open(f"{nombre_archivo}.dzn", "w") as f:
     f.write(f"Cantidad_de_salas = {num_salas};\n")
     f.write(f"Cantidad_de_ramos = {num_asignaturas};\n")
     f.write(f"Bloques = {bloques};\n")
-    f.write(f"Tamanio_salas = [{', '.join(map(str, capacidad))}];\n")
-    f.write(f"Prioridad = [{', '.join(map(str, prioridad))}];\n")
-    f.write(f"Interes = [{', '.join(map(str, interes))}];\n")
+    f.write(f"Capacidad = {capacidad};\n")
+    f.write(f"Prioridad = {prioridad};\n")
+    f.write(f"Interes = {interes};\n")
     f.write("Disponibilidad = array2d(1..Cantidad_de_ramos, 1..35, [\n")
     for dispo in disponibilidad:
         f.write(f"  {', '.join(map(str, dispo))},\n")
