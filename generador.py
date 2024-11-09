@@ -30,13 +30,13 @@ for x in range(num_asignaturas):
     interes.append(random.randint(40,80))
 
 with open(f"{nombre_archivo}.dzn", "w") as f:
-    f.write(f"Cantidad_de_salas = {num_salas};\n")
-    f.write(f"Cantidad_de_ramos = {num_asignaturas};\n")
-    f.write(f"Bloques = {bloques};\n")
-    f.write(f"Capacidad = {capacidad};\n")
-    f.write(f"Prioridad = {prioridad};\n")
-    f.write(f"Interes = {interes};\n")
-    f.write("Disponibilidad = array2d(1..Cantidad_de_ramos, 1..35, [\n")
+    f.write(f"cantSalas = {num_salas};\n")
+    f.write(f"cantRamos = {num_asignaturas};\n")
+    f.write(f"bloques = {bloques};\n")
+    f.write(f"capacidad = {capacidad};\n")
+    f.write(f"prioridad = {prioridad};\n")
+    f.write(f"interes = {interes};\n")
+    f.write("disponibilidad = array2d(1..Cantidad_de_ramos, 1..35, [\n")
     for dispo in disponibilidad:
         f.write(f"  {', '.join(map(str, dispo))},\n")
     f.write("]);\n")
