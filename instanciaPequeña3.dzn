@@ -1,0 +1,16 @@
+cantSalas = 1;
+cantRamos = 8;
+bloques = [1, 1, 1, 2, 2, 1, 1, 2];
+capacidad = [75];
+prioridad = [8, 5, 4, 1, 1, 9, 2, 5];
+interes = [59, 73, 48, 48, 78, 66, 53, 58];
+disponibilidad = array2d(1..cantRamos, 1..35, [
+  true, false, true, true, true, true, false, true, true, false, true, true, true, true, true, true, false, true, false, false, true, false, true, true, true, true, false, true, false, false, true, false, true, true, true,
+  true, true, true, true, true, true, false, true, false, true, false, true, true, true, true, false, false, false, true, true, true, false, true, true, false, true, false, false, true, true, true, true, true, true, true,
+  false, true, false, false, true, true, true, true, true, true, false, true, true, true, true, false, false, true, true, true, true, false, true, false, true, true, false, true, true, true, true, true, true, true, false,
+  false, false, true, true, false, false, false, true, true, false, true, false, true, false, false, true, false, false, true, false, true, false, false, true, false, false, true, false, true, true, true, false, true, false, false,
+  true, true, true, true, true, false, false, true, false, true, false, true, true, true, true, false, true, true, true, true, true, false, true, true, false, true, true, false, true, false, true, true, false, false, false,
+  false, false, true, true, true, true, true, true, true, false, true, false, true, true, true, false, true, true, true, true, true, true, false, true, true, true, true, true, true, true, false, true, true, true, true,
+  true, false, true, false, true, true, true, true, true, false, true, true, true, true, false, true, true, true, true, true, true, false, true, false, true, false, true, true, false, false, true, true, true, true, true,
+  true, false, false, true, true, false, true, true, true, false, false, true, false, true, true, true, true, true, true, true, false, true, true, true, true, true, false, true, true, false, false, true, true, true, true,
+]);

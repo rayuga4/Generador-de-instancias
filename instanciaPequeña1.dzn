@@ -1,0 +1,13 @@
+cantSalas = 1;
+cantRamos = 5;
+bloques = [2, 1, 1, 2, 1];
+capacidad = [73];
+prioridad = [7, 4, 3, 3, 5];
+interes = [51, 47, 44, 66, 55];
+disponibilidad = array2d(1..cantRamos, 1..35, [
+  false, true, true, true, false, true, true, false, true, false, true, false, false, true, true, false, false, false, false, false, false, true, false, false, false, false, true, true, false, true, false, true, true, false, false,
+  false, false, true, true, false, true, false, false, false, true, false, false, true, false, false, false, false, false, false, false, true, false, true, true, true, false, true, true, true, false, true, true, true, false, true,
+  true, true, true, false, true, true, true, false, true, false, true, true, true, true, false, false, false, true, true, false, true, false, true, false, true, true, false, true, true, false, true, false, true, true, true,
+  true, true, false, true, true, true, false, true, true, false, true, true, true, true, false, false, false, true, true, true, false, true, true, true, false, true, true, true, true, false, true, true, false, true, true,
+  false, true, true, false, true, true, true, false, false, false, false, false, true, true, false, false, true, true, false, false, false, true, false, false, false, true, true, true, false, false, true, false, false, false, true,
+]);

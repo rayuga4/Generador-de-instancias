@@ -1,0 +1,32 @@
+{
+    "openFiles": [
+        "modelo.mzn",
+        "instanciaPequeña1.dzn",
+        "instanciaPequeña2.dzn",
+        "instanciaPequeña2_2.dzn",
+        "instanciaPequeña3.dzn",
+        "instanciaPequeña4.dzn",
+        "instanciaPequeña5.dzn",
+        "instanciaPequeña6.dzn"
+    ],
+    "openTab": 0,
+    "projectFiles": [
+        "instancia1.dzn",
+        "instancia2.dzn",
+        "instancia3.dzn",
+        "instancia4.dzn",
+        "instancia5.dzn",
+        "instancia6.dzn",
+        "instanciaPequeña1.dzn",
+        "instanciaPequeña2.dzn",
+        "instanciaPequeña2_2.dzn",
+        "instanciaPequeña3.dzn",
+        "instanciaPequeña4.dzn",
+        "instanciaPequeña5.dzn",
+        "instanciaPequeña6.dzn",
+        "modelo.mzn"
+    ],
+    "selectedBuiltinConfigId": "org.gecode.gecode",
+    "selectedBuiltinConfigVersion": "6.3.0",
+    "version": 106
+}

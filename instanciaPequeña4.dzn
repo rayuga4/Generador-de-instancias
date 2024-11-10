@@ -1,0 +1,18 @@
+cantSalas = 1;
+cantRamos = 10;
+bloques = [1, 2, 2, 1, 2, 1, 1, 2, 1, 1];
+capacidad = [64];
+prioridad = [9, 3, 4, 5, 2, 6, 4, 1, 2, 3];
+interes = [57, 73, 67, 69, 67, 55, 79, 75, 69, 43];
+disponibilidad = array2d(1..cantRamos, 1..35, [
+  false, false, true, true, true, false, false, false, false, true, false, false, true, false, true, true, true, false, false, true, true, false, false, true, true, false, false, true, false, false, false, false, true, true, true,
+  false, false, false, false, false, false, false, false, true, true, true, false, false, false, true, false, true, false, true, false, true, true, true, false, false, true, true, false, false, true, false, false, false, true, true,
+  true, false, false, true, true, true, true, true, false, true, true, true, false, true, true, false, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, false, true,
+  false, false, false, false, false, true, true, true, true, true, false, true, false, true, true, true, false, false, false, false, false, true, true, false, false, false, true, false, false, false, true, true, true, true, false,
+  false, true, false, true, true, true, false, true, true, false, true, true, true, false, true, false, false, true, true, true, false, true, false, true, false, false, false, true, true, false, true, false, true, false, true,
+  true, false, false, true, true, true, true, false, true, true, true, false, true, false, true, false, true, true, false, true, true, false, true, true, true, true, true, true, true, true, true, true, false, true, true,
+  false, true, true, false, true, false, true, true, true, false, false, true, false, false, true, false, true, false, false, true, true, false, true, false, false, false, true, false, true, true, false, true, false, false, true,
+  true, true, false, true, true, true, true, true, false, false, false, false, true, true, true, false, true, true, true, false, false, true, false, true, true, true, false, true, true, true, false, true, true, true, true,
+  true, false, false, true, true, false, true, false, true, true, false, true, false, true, false, false, true, true, true, true, false, true, true, false, true, true, true, false, false, false, true, true, true, true, true,
+  false, true, true, false, true, true, true, true, false, true, true, true, false, true, true, true, false, false, true, true, true, false, true, true, true, false, true, true, false, false, true, true, false, false, false,
+]);
